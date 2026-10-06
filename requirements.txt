@@ -1,0 +1,16 @@
+# Yüz Tanıma Yoklama Sistemi - Gereksinimler
+# pip install -r requirements.txt
+
+# Biyometrik veri şifreleme için ZORUNLU (AES-256-GCM)
+cryptography>=41.0.0
+
+# Temel gereksinimler
+opencv-python>=4.5.0
+numpy>=1.19.0
+Pillow>=8.0.0
+
+# Gelişmiş yüz tanıma için (opsiyonel ama önerilir)
+# Not: face_recognition kurulumu için önce dlib kurulmalıdır
+# Windows kullanıcıları için: https://github.com/ageitgey/face_recognition#installation
+# face_recognition>=1.3.0
+# dlib>=19.22.0
